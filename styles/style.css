@@ -65,8 +65,11 @@ body {
 }
 
 .button-link a:hover {
-    color: #958282;
+    color: #161616;
+    font-weight: bold;
 }
+
+
 
 .button-link .fa-angle-right {
     margin-left: 10px;
@@ -112,10 +115,16 @@ main section style
     padding: 17px 39px;
     background: #FFFFFF;
     border-radius: 10px;
+    box-shadow: 10px 10px 5px #161616;
     text-align: center;
     font-size: 20px;
     font-weight: 600;
 }
+
+.sidebar-title:hover {
+    color: #093c75;
+}
+
 
 #bg-color {
     background: #f77460;
@@ -127,16 +136,25 @@ main section style
     gap: 24px;
 }
 
+.blog {
+    border: 1px solid #a3a0a0;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px;
+}
+
 .blog-image img {
     width: 100%;
 }
 
 .blog-title {
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .blog-title h1 {
     font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .button {
@@ -145,8 +163,9 @@ main section style
     background: #ededed;
     border-radius: 3px;
     border: 1px solid #161616;
-    box-shadow: 4px 0.1px #504f4f;
+    box-shadow: 1px 1px 5px;
     padding: 5px;
+    margin-top: 10px;
 }
 
 .time-comment {
@@ -155,6 +174,7 @@ main section style
 
 .time-comment .fa-comment-dots {
     margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 .tablet-button {
@@ -170,6 +190,7 @@ main section style
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     width: 100%;
+    box-shadow: 2px 2px 10px;
     overflow: hidden;
 }
 
@@ -207,7 +228,7 @@ main section style
  footer style  
  ----------*/
 footer {
-    background: #161616;
+    background: #232249;
     width: 100%;
     text-align: center;
 }
@@ -240,15 +261,19 @@ footer hr {
     padding: 10px;
 }
 
+.link-logo:hover {
+    color: #f8aa61;
+}
+
 .link-logo {
     padding: 15px;
     color: white;
     font-size: 20px;
 }
 
-/*---------------- 
+/*---------- 
 tablet device 
-------------------*/
+-------------*/
 @media only screen and (min-width: 577px) and (max-width: 992px) {
 
     /* minimize common container  */
@@ -308,7 +333,7 @@ tablet device
     .button-tab {
         color: #FFFFFF;
         font-size: 20px;
-        background: rgb(255, 4, 0);
+        background: #E8523A;
         padding: 15px;
         border-radius: 10px;
         border: none;
